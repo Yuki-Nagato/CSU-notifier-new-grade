@@ -1,0 +1,23 @@
+# 每轮查询的间隔（秒），建议设置为600以上
+interval: 600
+# 记录当前成绩的文件（JSON）
+record-file: grades-record.json
+
+# 需要查询的学生
+students:
+  - id: 学生1学号
+    password: 学生1密码
+    email: 学生1邮箱
+  - id: 学生2学号
+    password: 学生2密码
+    email: 学生2邮箱
+  # 更多的学生用类似格式添加
+
+# 发件人邮箱设置（默认使用SSL/TLS）
+email:
+  address: yuki@yuki-nagato.com # 邮箱地址
+  sender-name: 長門有希 # 发件人显示姓名
+  username: username # SMTP登录用户名
+  password: password # SMTP登录密码
+  server: smtp.example.com # SMTP服务器地址
+  port: 465 # SMTP服务器端口

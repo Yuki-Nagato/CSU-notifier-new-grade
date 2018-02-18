@@ -1,0 +1,6 @@
+*
+!.gitignore
+!*/
+!*.java
+!lib/*
+!config/config.example.yaml
